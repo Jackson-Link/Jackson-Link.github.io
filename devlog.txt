@@ -1,0 +1,13 @@
+Jackson Link
+Portfolio Web Page
+Dev Logs
+
+Day 1 : (06/04/2026)
+-Created local web page using index.html
+-Learned about ability to use tags in html
+-Added items to my first GitHub Project
+
+Goals:
+1. Learn how to seperate text on the same line
+2. Learn how to upload images to file
+3. Finish 1 section (atleast draft of section)
