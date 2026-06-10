@@ -11,3 +11,12 @@ Goals:
 1. Learn how to seperate text on the same line
 2. Learn how to upload images to file
 3. Finish 1 section (atleast draft of section)
+
+Day 2: (06/09/2026)
+-Updated summary paragraph and moved its alignment/margins
+-Succesfully created a working button that links to my resume, has animations
+
+Goals:
+1. Finish projects section
+2. Add design to the sides
+
