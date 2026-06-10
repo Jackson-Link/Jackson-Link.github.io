@@ -11,6 +11,8 @@ p {
 	color: black;
 	font-family: Arial;
 	margin-top: 0;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 .contact-btn {
@@ -18,7 +20,7 @@ p {
 	display: inline-block;
 
 	/* 2. Spacing inside the button (top/bottom, left/right) (Gemini) */
-	padding: 12px 24px;
+	padding: 12px 120px;
 
 	/* 3. Colors (Gemini) */
 	background-color: #007acc; /* A nice professional blue */
@@ -38,7 +40,6 @@ p {
 	/* 7. Shadow (Me) */
 	box-shadow: 0px 5px 0px #005999; /* Give the button a shadow to help with 3D look */
 	transition: all 0.1s ease;
-
 }
 
 /* 7. Hover effect: Changes color when the mouse moves over it (Gemini) */
@@ -55,3 +56,10 @@ p {
 	/* Shrink the shadow because the button is now closer to the page */
 	box-shadow: 0px 1px 0px #005999;
 }
+
+/* 9. Alignment of button (Gemini) */
+.button-container {
+	display: flex;		    /* Turns this container into a Flexbox layout */
+	justify-content: center;    /* Centers the button horizontally */
+	align-items: center;	    /* Centers the button vertically */
+}	
