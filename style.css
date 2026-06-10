@@ -4,15 +4,54 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 0;
 }
 
 p {
-	color: gray;
+	color: black;
 	font-family: Arial;
+	margin-top: 0;
 }
 
-button {
-	background-color: black;
-	color: white;
-	padding: 10px 20px;
+.contact-btn {
+	/* 1. Turns the link into a block so we can give it spacing (Gemini)*/
+	display: inline-block;
+
+	/* 2. Spacing inside the button (top/bottom, left/right) (Gemini) */
+	padding: 12px 24px;
+
+	/* 3. Colors (Gemini) */
+	background-color: #007acc; /* A nice professional blue */
+	color: #ffffff;		   /* White text color */
+
+	/* 4. Typography (Gemini) */
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;	   /* This removes the default underline */
+
+	/* 5. Shaping (Gemini) */
+	border-radius: 6px;	   /* Slightly rounds the corners */
+
+	/* 6. Smoothness animation (Gemini)*/
+	transition: background-color 0.2s ease;
+
+	/* 7. Shadow (Me) */
+	box-shadow: 0px 5px 0px #005999; /* Give the button a shadow to help with 3D look */
+	transition: all 0.1s ease;
+
+}
+
+/* 7. Hover effect: Changes color when the mouse moves over it (Gemini) */
+.contact-btn:hover {
+	background-color: #005999;  /* A slightly darker blue */
+	cursor: pointer;	    /* Changes mouse cursor to a clicking hand */
+	
+}
+
+/* 8. Active effect: Make button look like it physically sinks into the page(Me) */
+.contact-btn:active {
+	/* Move the button DOWN by 4 pixels */
+	transform: translateY(4px);
+	/* Shrink the shadow because the button is now closer to the page */
+	box-shadow: 0px 1px 0px #005999;
 }
